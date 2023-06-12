@@ -7,6 +7,35 @@ Font:
 
 :root {
     --primary-color: #ff6b6b;
-    
+    --secondary-color: #794afa;
+    --secondary-dark-color: #453c5c;
+
+    --white-color: #ffffff;
+    --light-bg-color: #f2f3f5;
+    --light-text-color: #7c899a;
+    --border-color: #e5e8ec;
+    --dark-color: #0a021c;
+
+    --font-small: 13px;
+    --font-smaller: 50%;
+
+    --percent100: 100%;
+    --percent50: 50%;
+
+    --fw3: 300;
+    --fw5: 500;
+    --fw6: 600;
+    --fw7: 700;
+    --fw8: 800;
+
+    --trans-background-color: backgound-color .3s, color .3s;
+    --trans-background: background-color .3s;
+    --trans-color: color .3s;
+
+.main-link a:hover{
+    color: var(--secondary-color);
+}
+
+
     
 }
