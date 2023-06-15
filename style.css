@@ -46,15 +46,21 @@ body {
     color: var(--dark-color);
     background-color: var(--white-color);
 }
+a 
+[
+    text-decoration: none;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+]
+ul {
+    list-style: none;
+}
 
 
 *,::before,::after {
     box-sizing: border-box;
 }
 
-body {
-    
-}
 .main-link a:hover{
     color: var(--secondary-color);
 }
