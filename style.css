@@ -46,14 +46,18 @@ body {
     color: var(--dark-color);
     background-color: var(--white-color);
 }
-a 
-[
+a {
     text-decoration: none;
     color: inherit;
     -webkit-tap-highlight-color: transparent;
-]
+}
+
 ul {
     list-style: none;
+}
+img {
+    max-width: var(--percent100);
+    vertical-align: middle;
 }
 
 
