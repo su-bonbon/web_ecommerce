@@ -59,6 +59,9 @@ img {
     max-width: var(--percent100);
     vertical-align: middle;
 }
+strong {
+    font-weight: var(--fw8);
+}
 
 
 *,::before,::after {
