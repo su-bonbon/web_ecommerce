@@ -147,3 +147,23 @@ h4 {
 .main-link a:hover{
     color: var(--secondary-color);
 }
+
+
+
+
+/* Structure Styling
+
+
+    00. Reusable selectors
+
+    01. HEADER
+        a. Header Top
+        b. Header Nav
+        c. Header Main, Departments Category
+        d. Search Form
+        e. Responsive MENu - OFF canvas
+    02. SLIDER
+    03. BRANDS
+    04. PRODUCT
+        a. Global product
+        b. BIG product
