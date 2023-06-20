@@ -131,9 +131,27 @@ h4 {
     gap: 1em;
 }
 
+.main-link a:hover{
+    color: var(--secondary-color);
+}
+.second-link a:hover {
+    color: var(--light-text-color)
+}
 
-
-
+.icon-small .icon-large {
+    display: flex;
+    align-items: center;
+    padding: 0 0.25em;
+    font-weight: normal;
+}
+.icon-small {
+   font-size: 1.25em;
+   margin: auto; 
+}
+.icon-large {
+    font-size: 1.75em;
+    padding: 0 0.75em 0 0;
+ }
 
 
 
@@ -144,9 +162,6 @@ h4 {
     box-sizing: border-box;
 }
 
-.main-link a:hover{
-    color: var(--secondary-color);
-}
 
 
 
