@@ -199,3 +199,13 @@ h4 {
  * 01. HEADER
  * /
 
+
+
+
+*/
+
+@media screen and (min-width: 992px) {
+    .container {
+        padding: 0 2em;
+    }
+}
