@@ -219,6 +219,32 @@ h4 {
 
 */
 
+header li > a {
+    display: flex;
+    position: relative;
+    line-height: inherit;
+}
+
+
+
+    /* 01. HEADER
+        a. header top
+    */
+
+.header-top .wrapper {
+    font-size: var(--font-small);
+    font-weight: var(--fw3);
+    justify-content: space-between;
+    line-height: 42px;
+}
+.header-top .wrapper ul {
+    
+}
+
+
+
+
+
 @media screen and (min-width: 992px) {
     .container {
         padding: 0 2em;
