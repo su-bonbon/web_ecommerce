@@ -238,7 +238,10 @@ header li > a {
     line-height: 42px;
 }
 .header-top .wrapper ul {
-    
+    gap: 2em;
+}
+.header-top li {
+    position: relative;
 }
 
 
