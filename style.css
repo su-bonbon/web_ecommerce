@@ -223,6 +223,7 @@ header li > a {
     display: flex;
     position: relative;
     line-height: inherit;
+    transition: var(--trans-color);
 }
 
 
@@ -263,10 +264,37 @@ header li > a {
 }
 
 
+    /* 01. HEADER
+        b. header Nav
+    */
+.trigger {
+    font-size: 1.5em;
+    display: flex;
+    padding: 0.25em;
+    margin-right: 0.5em;
+}
+.logo a {
+    font-family: 'Poppins';
+    font-size: 1.75em;
+    position: relative;
+    font-weight: var(--fw8);
+    display: flex;
+    padding-left: 0.75em;
+}
+
+
+
+
+/* 
+* 15. RESPONSIVE
+*/
 
 @media screen and (min-width: 992px) {
     .container {
         padding: 0 2em;
+    }
+    .desktop-hide {
+        display: none;
     }
 }
 *,::before,::after {
