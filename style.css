@@ -280,6 +280,23 @@ header li > a {
     font-weight: var(--fw8);
     display: flex;
     padding-left: 0.75em;
+    margin-right: 2em;
+}
+.cirlce {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    border-radius: var(--percent50);
+    background-color: var(--light-bg-color);
+    z-index: -1;
+}
+.circle::before {
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 28px;
 }
 
 
