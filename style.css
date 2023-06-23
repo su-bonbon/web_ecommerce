@@ -325,7 +325,20 @@ nav .fly-item {
     right: -32px;
     background-color: var(--primary-color);
 }
-
+.header-nav .right {
+    position: relative;
+    margin-left: auto;
+}
+.header-nav .right .icon-large {
+    position: relative;
+}
+.header-nav .right .fly-item {
+    top: 0;
+    right: 16px;
+    width: 16px;
+    background-color: var(--secondary-dark-color);
+    border-radius: var(--percent50);
+}
 
 
 /* 
