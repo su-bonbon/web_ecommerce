@@ -154,7 +154,9 @@ REUSABLE SELECTOR
  }
 
 
- 
+.mobile-hide {
+    display: none;
+}
 
 
 
@@ -267,6 +269,11 @@ header li > a {
     /* 01. HEADER
         b. header Nav
     */
+.header-nav {
+    padding: 0.5em 0;
+    margin-bottom: 1.5em;
+    border-bottom: 1px solid var(--border-color);
+}
 .trigger {
     font-size: 1.5em;
     display: flex;
@@ -351,6 +358,20 @@ nav .fly-item {
     }
     .desktop-hide {
         display: none;
+    }
+    .mobile-hide {
+        display: block;
+    }
+    .logo a {
+        margin-right: 2em;
+    }
+    .header-nav {
+        padding: 0;
+        margin: 0;
+        border-bottom: 0;
+    }
+    .header-nav .right li > a {
+        margin-left: 1em;
     }
 }
 *,::before,::after {
