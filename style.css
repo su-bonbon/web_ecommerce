@@ -173,7 +173,21 @@ REUSABLE SELECTOR
 }
 
 
-
+.primary-button, .secondary-button, .light-button {
+    font-size: var(--font-small);
+    padding: 0.9em 2em;
+    height: auto;
+    width: fit-content;
+    border-radius: 2em;
+    transform: var(--trans-background-color);
+}
+.primary-button {
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+.primary-button:hover {
+    background-color: var(--dark-color);
+}
 
 
 
@@ -451,6 +465,12 @@ nav .fly-item {
         position: absolute;
         bottom: 4em;
         width: var(--percent100);
+    }
+    nav .mega .products .text-content h4 {
+        font-size: 2em;
+        font-weight: var(--fw8);
+        text-align: center;
+        color: var(--secondary-dark-color);
     }
 
 
