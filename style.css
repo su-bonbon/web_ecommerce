@@ -33,9 +33,7 @@ Font:
     --trans-color: color .3s;
 }
 
-*,::before,::after {
-    box-sizing: border-box;
-}
+
 
 
 *{
@@ -160,6 +158,15 @@ REUSABLE SELECTOR
     display: none;
 }
 
+
+.object-cover img {
+    position: absolute;
+    object-fit: cover;
+    width: var(--percent100);
+    height: var(--percent100);
+    display: black;
+}
+.
 
 
 
