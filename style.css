@@ -179,7 +179,7 @@ REUSABLE SELECTOR
     height: auto;
     width: fit-content;
     border-radius: 2em;
-    transform: var(--trans-background-color);
+    transition: var(--trans-background-color);
 }
 .primary-button {
     background: var(--primary-color);
@@ -188,7 +188,21 @@ REUSABLE SELECTOR
 .primary-button:hover {
     background-color: var(--dark-color);
 }
-
+.secondary-button {
+    background-color: var(--secondary-dark-color);
+    color: var(--white-color);
+}
+.secondary-button:hover {
+    background-color: var(--light-bg-color);
+    color: var(--secondary-dark-color);
+}
+.light-button {
+    background-color: var(--light-bg-color);
+}
+.light-button:hover {
+    background-color: var(--secondary-dark-color);
+    color: var(--white-color);
+}
 
 
 
