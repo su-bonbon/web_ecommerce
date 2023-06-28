@@ -441,5 +441,20 @@ nav .fly-item {
     nav .mega .products .media {
         height: 400px;
     }
+    nav .mega .products .text-content {
+        line-height: initial;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+        margin-top: 0.5em;
+        position: absolute;
+        bottom: 4em;
+        width: var(--percent100);
+    }
+
+
+
+
 }
 
