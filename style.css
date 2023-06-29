@@ -203,7 +203,12 @@ REUSABLE SELECTOR
     background-color: var(--secondary-dark-color);
     color: var(--white-color);
 }
-
+.view-all {
+    font-size: var(--font-small);
+    display: flex;
+    gap: 1em;
+    transition: var(--trans-color);
+}
 
 
 
