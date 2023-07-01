@@ -478,6 +478,9 @@ form.search button {
     cursor: pointer;
     transition: var(--trans-background);
 }
+form.search button:hover {
+    background-color: var(--dark-color);
+}
 
 
 
@@ -578,6 +581,10 @@ form.search button {
         font-weight: var(--fw8);
         text-align: center;
         color: var(--secondary-dark-color);
+    }
+    .header-main .right {
+        max-width: 600px;
+        margin-left: auto;
     }
 
 
