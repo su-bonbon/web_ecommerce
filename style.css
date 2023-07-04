@@ -40,6 +40,7 @@ Font:
     margin:0;
     padding:0;
 }
+
 *,::before,::after{
     box-sizing: border-box;
 }
@@ -146,7 +147,7 @@ REUSABLE SELECTOR
 }
 .icon-small {
    font-size: 1.25em;
-   margin: auto; 
+   margin-left: auto; 
 }
 .icon-large {
     font-size: 1.75em;
@@ -438,6 +439,11 @@ nav .fly-item {
     width: 60px;
 }
 
+.dpt-menu > ul > li > a {
+    font-size: var(--font-small);
+    height: 46px;
+    align-items: center;
+}
 
     /* 01. HEADER
     *   d. Search Form
