@@ -622,17 +622,45 @@ form.search button:hover {
         border: 1px solid var(--border-color);
         border-top: 0;
         display: none;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: auto;
     }
 
     /* showing the first sub msenu */
-    .dpt-menu .has-child:nth-child(1) > ul {
+    .dpt-menu .mega {
         display: block;
     }
 
     .dpt-menu .beauty ul {
         background-image: url(assets/menu/menu_bg1.jpg);
     }
-
+    .dpt-menu .electric ul {
+        background-image: url(assets/menu/menu_bg2.jpg);
+    }
+    .dpt-menu .fashion ul {
+        background-image: url(assets/menu/menu_bg3.jpg);
+    }
+    .dpt-menu .homekit .mega {
+        background-image: url(assets/menu/menu_bg4.jpg);
+    }
+    .dpt-menu .has-child > :where(ul,.mega)::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(90deg, rgba(225, 225, 225, 1) 0%, rgba(225, 225, 225, 10) 100%);
+    }
+    .dpt-menu .mega {
+        width: auto;
+        min-width: var(--percent100);
+        display: flex;
+    }
+    .dpt-menu .has-child:hover .mega {
+        display: flex;
+    }
 
 
 
