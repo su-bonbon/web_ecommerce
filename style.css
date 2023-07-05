@@ -609,6 +609,34 @@ form.search button:hover {
         border-bottom: 1px solid var(--border-color);
     }
 
+    .dpt-menu .has-child > ul, .dpt-menu .mega {
+        position: absolute;
+        top: 0;
+        left: var(--percent100);
+        width: var(--percent100);
+        height: auto;
+        min-height: var(--percent100);
+        padding: 1.5em;
+        font-size: var(--font-small);
+        line-height: 2.5em;
+        border: 1px solid var(--border-color);
+        border-top: 0;
+        display: none;
+    }
+
+    /* showing the first sub menu */
+    .dpt-menu .has-child:nth-child(1) > ul {
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
 
 }
 
