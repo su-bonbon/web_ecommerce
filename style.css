@@ -629,7 +629,9 @@ form.search button:hover {
         display: block;
     }
 
-
+    .dpt-menu .beauty ul {
+        background-image: url(assets/menu/menu_bg1.jpg);
+    }
 
 
 
