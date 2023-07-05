@@ -444,6 +444,12 @@ nav .fly-item {
     height: 46px;
     align-items: center;
 }
+.dpt-menu .has-child:hover ul {
+    display: block;
+}
+.dpt-menu .has-child li a:hover {
+    text-decoration: underline;
+}
 
     /* 01. HEADER
     *   d. Search Form
@@ -651,12 +657,11 @@ form.search button:hover {
         left: 0;
         right: 0;
         bottom: 0;
-        background: linear-gradient(90deg, rgba(225, 225, 225, 1) 0%, rgba(225, 225, 225, 10) 100%);
+        background: linear-gradient(90deg, rgba(225, 225, 225, 1) 0%, rgba(225, 225, 225, 10) 1%);
     }
     .dpt-menu .mega {
         width: auto;
         min-width: var(--percent100);
-        display: flex;
     }
     .dpt-menu .has-child:hover .mega {
         display: flex;
