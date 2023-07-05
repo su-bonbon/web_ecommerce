@@ -339,7 +339,7 @@ header li > a {
     padding-left: 0.75em;
     margin-right: 2em;
 }
-.cirlce {
+.circle {
     position: absolute;
     top: -15px;
     left: 0;
@@ -495,6 +495,53 @@ form.search button:hover {
 }
 
 
+
+    /* 01. HEADER
+    *   e. Responsive MENU - OFF Canvas
+    */
+.site-off {
+    position: fixed;
+    width: 320px;;
+    height: var(--percent100);
+    background-color: var(--white-color);
+    overflow: auto;
+    z-index: 1000;
+}
+.off-canvas {
+    width: var(--percent100);
+    height: var(--percent100);
+    touch-action: auto;
+    padding: 1.5em;
+}
+.off-canvas .canvas-head {
+    color: var(--white-color);
+    justify-content: space-between;
+    padding: 1.5em;
+    margin: -1.5em -1.5em 1.5em;
+    background-color: var(--secondary-dark-color);
+    border-bottom-right-radius: 160px 25px; 
+}
+.off-canvas .canvas-head .logo {
+    z-index: 10;
+    position: relative;
+}
+.off-canvas .canvas-head .logo .circle {
+    opacity: .75;
+}
+.t-close {
+    font-size: 1.25em;
+    width: 32px;
+    height: 32px;
+    border-radius: var(--percent50);
+    background-color: var(--secondary-dark-color);
+    color: var(--white-color);
+    transition: var(--trans-background-color);
+}
+.t-close:hover {
+    background-color: var(--white-color);
+    color: var(--secondary-dark-color);
+    opacity: .75;
+}
 
 
 /* 
