@@ -624,7 +624,7 @@ form.search button:hover {
         display: none;
     }
 
-    /* showing the first sub menu */
+    /* showing the first sub msenu */
     .dpt-menu .has-child:nth-child(1) > ul {
         display: block;
     }
