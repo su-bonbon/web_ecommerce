@@ -655,13 +655,30 @@ form.search button:hover {
     font-weight: var(--fw3);
     columns: var(--light-text-color);
 }
-.text-content :where(h2, h3) span:lasr-child {
+.text-content :where(h2, h3) span:last-child {
     color: var(--secondary-dark-color);
     text-transform: uppercase;
     letter-spacing: -1px;
 }
 .swiper-pagination .swiper-pagination-bullet-active {
     background-color: var(--secondary-dark-color);
+}
+
+
+/* -----------------
+* 03. BRANDS
+*------------------*/
+.brands .wrapper {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em 0;
+}
+.brands .item img {
+    opacity: 1;
+    transition: opacity .3s;
+}
+.brands .item a:hover img {
+    opacity: 1;
 }
 
 /* 
