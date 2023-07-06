@@ -271,7 +271,7 @@ REUSABLE SELECTOR
  * 01. HEADER
  * -----------------*/
 
-header li > a {
+:where(.off-canvas, header) li > a {
     display: flex;
     position: relative;
     line-height: inherit;
@@ -541,6 +541,20 @@ form.search button:hover {
     background-color: var(--white-color);
     color: var(--secondary-dark-color);
     opacity: .75;
+}
+.off-canvas .dpt-head {
+    font-size: var(--font-small);
+    padding: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    background-color: var(--light-bg-color);
+    border-radius: 7px 7px 0 0;
+}
+.off-canvas .has-child > :where(ul, .mega) {
+    font-size: var(--font-small);
+    font-weight: var(--fw3);
+    line-height: 28px;
+    padding-left: 3em;
 }
 
 
