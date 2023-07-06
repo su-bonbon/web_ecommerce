@@ -651,7 +651,9 @@ form.search button:hover {
     text-transform: uppercase;
     letter-spacing: -1px;
 }
-
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: var(--secondary-dark-color);
+}
 
 /* 
 * 15. RESPONSIVE
