@@ -618,7 +618,10 @@ form.search button:hover {
 /* 02. SLIDER
 *
 */
-
+/*.slider > div > .wrapper {
+    width: calc(100% - (300px + 2em));
+    margin-left: auto;
+}*/
 .slider .item {
     position: relative;
     height: 474px;
@@ -635,7 +638,7 @@ form.search button:hover {
     filter: blur(50px);
     opacity: .8;
 }
-.slider.text-content {
+.slider .text-content {
     position: relative;
     height: var(--percent100);
     justify-content: flex-end;
