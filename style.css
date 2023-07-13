@@ -833,9 +833,35 @@ form.search button:hover {
     display: -webkit-box;
     -webkit-box-orient: vertical;
 }
-.products h3 a {
+.products h3 a:hover {
     text-decoration: underline;
 }
+.products .price .current {
+    font-size: calc(1em + 1vw);
+    color: var(--primary-color);
+    margin-right: 0.25em;
+}
+.products .price .normal {
+    color: var(--light-text-color);
+    text-decoration: line-through;
+}
+.products .stock .qty {
+    display: flex;
+    justify-content: space-between;
+}
+.products .stock .bar {
+    height: 3px;
+    margin-top: 1em;
+    background-color: var(--border-color);
+    overflow: hidden;
+}
+.products .stock .available {
+    height: 3px;
+    width: 21%;
+    background-color: var(--secondary-color);
+}
+
+
 
 
     /*04. PRODUCT-----------------
@@ -860,11 +886,11 @@ form.search button:hover {
 
 
 
-
-
-
-
-
+@media screen and (min-width: 768px) {  
+    .products .price .current {
+        font-size: 1.25em;
+    }
+}
 
 @media screen and (min-width: 992px) {
     .container {
