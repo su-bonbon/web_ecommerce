@@ -834,7 +834,7 @@ form.search button:hover {
     -webkit-box-orient: vertical;
 }
 .products h3 a {
-    
+    text-decoration: underline;
 }
 
 
