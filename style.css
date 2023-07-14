@@ -915,12 +915,31 @@ form.search button:hover {
 
 
 
+    /*04. PRODUCT-----------------
+        *  d. Main products
+        * ------------------------*/
+
+.products.main .item {
+    flex-direction: column;
+    flex: 0 0 100%;
+    padding: 0 0.938em;
+    padding-bottom: 2em;
+}
+.products.main .media {
+    height: 390px;
+}
+
+
 /* 
 * 15. RESPONSIVE
 */
 
 
-
+@media screen and (min-width: 481px) {
+    .products.main .item {
+        flex: 0 0 50%
+    };
+}
 
 
 @media screen and (min-width: 768px) {  
@@ -930,6 +949,9 @@ form.search button:hover {
     .products.mini {
         flex: 0 0 50%;
     }
+    .products.main .item {
+        flex: 0 0 33.3333%
+    };
 }
 
 @media screen and (min-width: 992px) {
@@ -1108,6 +1130,9 @@ form.search button:hover {
         max-height: 373px;
     }
 
+    .products.mini {
+        flex: 0 0 25%;
+    }
 
 
 
