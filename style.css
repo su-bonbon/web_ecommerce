@@ -808,7 +808,7 @@ form.search button:hover {
     display: flex;
     flex-direction: column;
 }
-.products:where(.big,.main.one) .content {
+.products:where(.big,.main, .one) .content {
     gap: 1em;
     margin-top: 1.25em;
 }
@@ -927,6 +927,22 @@ form.search button:hover {
 }
 .products.main .media {
     height: 390px;
+}
+.products.main .footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0 1em 1em;
+    border-radius: 7px;
+    z-index: 1;
+    background: linear-gradient(0deg, var(--light-bg-color) 0%, var(--white-color) 70%);
+}
+.products.main .footer ul {
+    list-style: disc;
+    padding: 1.25em 0 0 1.25em;
+    line-height: 1.8;
+    border-top: 1px solid var(--border-color);
+    margin-top: 145px;
 }
 
 
