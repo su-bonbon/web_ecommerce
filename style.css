@@ -824,6 +824,10 @@ form.search button:hover {
     background-position-y: top;
     background-repeat: repeat-x /*check*/
 }
+/* to set width of stars */
+.products .item:where(:nth-child(3),:nth-child(3)) .stars {
+    width: 64px;
+} 
 .products h3 {
     font-family: 'Rubik';
     font-size: 1em;
@@ -1158,7 +1162,7 @@ form.search button:hover {
         max-height: 373px;
     }
 
-    .products.mini {
+    .products..main .item {
         flex: 0 0 25%;
     }
 
