@@ -1044,7 +1044,15 @@ form.search button:hover {
     width: var(--percent100);
 }
     
+/*05. FOOTER-----------------
+        *  b. widgets
+        * ------------------------*/
 
+
+.widgets {
+    padding: 3.5em 2.5em;
+    background-color: var(--light-bg-color);
+}
 /* 
 * 15. RESPONSIVE
 */
@@ -1061,7 +1069,9 @@ form.search button:hover {
     .products .price .current {
         font-size: 1.25em;
     }
-    .products.mini, .banner .row{
+    .products.mini, 
+    .banner .row
+    .widgets .row {
         flex: 0 0 50%;
     }
     .products.main .item {
@@ -1246,7 +1256,8 @@ form.search button:hover {
         max-height: 373px;
     }
 
-    .products..main .item {
+    .products.main .item,
+    .widgets .row {
         flex: 0 0 25%;
     }
 
