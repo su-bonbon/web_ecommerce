@@ -652,7 +652,7 @@ form.search button:hover {
 }
 .text-content :where(h2, h3) span:first-child {
     font-weight: var(--fw3);
-    columns: var(--light-text-color);
+    color: var(--light-text-color);
 }
 .text-content :where(h2, h3) span:last-child {
     color: var(--secondary-dark-color);
@@ -985,7 +985,16 @@ form.search button:hover {
 .banner .text-content {
     padding: 1.5em 2.5em;
 }
-
+.banner h3 {
+    font-size: calc(1em + 0.5vw);
+    font-weight: var(--fw3);
+}
+.banner h3 span {
+    font-size: 80%;
+}
+.banner .primary-button {
+    z-index: 3;
+}
 
 
 /* 
