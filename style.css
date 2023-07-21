@@ -1114,8 +1114,22 @@ form.search button:hover {
     color: var(--light-text-color);
     transition: var(--trans-color);
 }
-
-
+.menu-bottom nav li a:hover {
+    color: var(--dark-color);
+}
+.menu-bottom nav li a span {
+    font-size: var(--font-smaller);
+}
+.menu-bottom nav li a i {
+    font-size: 1.25em;
+}
+.menu-bottom .fly-item {
+    right: 50%;
+    width: 16px;
+    border-radius: var(--percent50);
+    margin-right: -20px;
+    background-color: var(--secondary-dark-color);
+}
 
 
 
