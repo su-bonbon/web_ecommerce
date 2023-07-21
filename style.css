@@ -1089,6 +1089,45 @@ form.search button:hover {
 }
 
 
+/*06. BOTTOM MENU-----------------
+        * 
+        * ------------------------*/
+.menu-bottom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+    background-color: var(--white-color);
+    box-shadow: 0 -2px 10px rgb(0 0 0 / 10%);
+    z-index: 900;
+}
+.menu-bottom nav li {
+    flex: 1;
+}
+.menu-bottom nav li a {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em 0;
+    color: var(--light-text-color);
+    transition: var(--trans-color);
+}
+
+
+
+
+
+
+/*06. BOTTOM MENU-----------------
+        *  a. search
+        * ------------------------*/
+
+
+
+
+
 
 
 
