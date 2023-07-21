@@ -1142,6 +1142,13 @@ form.search button:hover {
     padding: 2.5em 0;
     background-color: var(--secondary-dark-color);
     z-index: 1000;
+    visibility: hidden;
+    opacity: 0;
+    will-change: visibility, opacity;
+}
+.showsearch .search-bottom {
+    visibility: inherit;
+    opacity: 1;
 }
 .search-bottom .t-close {
     position: absolute;
