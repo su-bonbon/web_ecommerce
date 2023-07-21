@@ -1132,7 +1132,7 @@ form.search button:hover {
 }
 
 
-/*06. BOTTOM MENU-----------------
+        /*06. BOTTOM MENU-----------------
         *  a. search
         * ------------------------*/
 .search-bottom {
@@ -1160,8 +1160,24 @@ form.search button:hover {
 }
 
 
-
-
+/*07. OVERLAY-----------------
+        *  
+        * ------------------------*/
+.overlay {
+    position: fixed;
+    width: var(--percent100);
+    height: var(--percent100);
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    opacity: 0;
+}
+.showmenu .overlay {
+    opacity: 1;
+    visibility: inherit;
+}
 
 
 
