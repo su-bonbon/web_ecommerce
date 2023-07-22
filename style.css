@@ -1182,6 +1182,20 @@ form.search button:hover {
 
 
 
+
+/* 
+* 08. PAGE SINGLE
+*/
+
+
+    /* 08. PAGE SINGLE
+    *   a. Department Menu
+    */
+.page-home .dpt-cat .dpt-trigger {
+    display: none;
+}
+
+
 /* 
 * 15. RESPONSIVE
 */
