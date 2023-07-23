@@ -1191,10 +1191,14 @@ form.search button:hover {
     /* 08. PAGE SINGLE
     *   a. Department Menu
     */
-.page-home .dpt-cat .dpt-trigger {
+.page-home .dpt-cat .dpt-trigger,
+.dpt-trigger .ri-close-line,
+.showdpt .dpt-trigger .ri-menu-3-line {
     display: none;
 }
-
+.showdpt .dpt-trigger .ri-close-line {
+    display: block;
+}
 
 /* 
 * 15. RESPONSIVE
