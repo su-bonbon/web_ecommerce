@@ -1264,6 +1264,11 @@ form.search button:hover {
     overflow: hidden;
     margin: 0 2em 2em 0;
 }
+.products :is(.swiper-button-next, .swiper-button-prev) {
+    outline: 0;
+    color: var(--secondary-dark-color);
+    transition: var(--trans-background), transform .3s;
+}
 
 /* 
 * 15. RESPONSIVE
@@ -1293,7 +1298,7 @@ form.search button:hover {
         font-size: 1.25em;
     }
     .products.mini, 
-    .banner .row
+    .banner .row,
     .widgets .row {
         flex: 0 0 50%;
     }
