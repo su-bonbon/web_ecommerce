@@ -1415,6 +1415,13 @@ form.search button:hover {
         align-items: center;
     }
 
+    /* Page Single */
+    #page:not(.page-home) .dpt-menu {
+        display: none;
+    }
+    #page.showdpt .dpt-menu {
+        display: block;
+    }
 
 }
 
