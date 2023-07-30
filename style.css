@@ -1259,7 +1259,7 @@ form.search button:hover {
 }
 .products.one .thumbnail-show {
     position: relative;
-    width: 130px;
+    width: 30%;
     height: 110px;
     overflow: hidden;
     margin: 0 2em 2em 0;
@@ -1359,7 +1359,7 @@ form.search button:hover {
     }
     .products.main .item {
         flex: 0 0 33.3333%
-    };
+    }
     .products.one .row {
         flex: 0 0 50%;
         width: 50%;

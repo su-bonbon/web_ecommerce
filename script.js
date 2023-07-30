@@ -70,3 +70,28 @@ const dptButton = document.querySelector('.dpt-cat .dpt-trigger'),
 dptButton.addEventListener('click', function() {
     dptClass.classList.toggle('showdpt')
 })
+
+//product image slider
+var productThumb = new Swiper ('.small-image', {
+    loop: true,
+    spaceBetween: 10,
+    sliderPerView: 3,
+    freeMode: true,
+    watchSliderProgress: true,
+    breskpoints: {
+        481: {
+            spaceBetween: 32,
+        }
+    }
+});
+var productBig = new Swiper ('.big-image', {
+    loop: true,
+    autoHeight: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    thumbs: {
+        swiper: productThumb
+    }
+});
