@@ -1259,7 +1259,7 @@ form.search button:hover {
 }
 .products.one .thumbnail-show {
     position: relative;
-    width: 30%;
+    width: 130px;
     height: 110px;
     overflow: hidden;
     margin: 0 2em 2em 0;

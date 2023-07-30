@@ -78,8 +78,8 @@ var productThumb = new Swiper ('.small-image', {
     sliderPerView: 3,
     freeMode: true,
     watchSliderProgress: true,
-    breskpoints: {
-        481: {
+    breakpoint: {
+        481px: {
             spaceBetween: 32,
         }
     }
