@@ -1316,7 +1316,33 @@ form.search button:hover {
     position: relative;
     margin: 0 0.5em 0.5em;
 }
-
+.products .variant .circle {
+    display: block;
+    position: static;
+    top: 0;
+    margin: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+.products .variant input {
+    clip: rect(0,0,0,0);
+    overflow: hidden;
+    position: absolute;
+    height: 0;
+    width: 0;
+}
+.products .variant label::before {
+    opacity: 1;
+}
+.products .variant label[for="cogrey"]::before {
+    background-color: #576574;
+}
+.products .variant label[for="coblue"]::before {
+    background-color: #45a0ff;
+}
+.products .variant label[for="cogreen"]::before {
+    background-color: #1dd1a1;
+}
 
 
 
