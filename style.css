@@ -1343,10 +1343,31 @@ form.search button:hover {
 .products .variant label[for="cogreen"]::before {
     background-color: #1dd1a1;
 }
+.single-product .variant form p input:checked + label {
+    background-color: transparent;
+    border: 2px solid var(--dark-color);
+    color: var(--white-color);
+}
 
 
-
-
+.products .sizes .variant label::before {
+    background-color: var(--white-color);
+}
+.products .sizes .variant label span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--percent100);
+    height: var(--percent100);
+    font-size: 0.85em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single-product .sizes .variant form p input:checked + label::before {
+    background-color: var(--dark-color);
+    opacity: 1;
+}
 
 
 
