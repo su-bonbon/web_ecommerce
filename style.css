@@ -1316,7 +1316,7 @@ form.search button:hover {
     position: relative;
     margin: 0 0.5em 0.5em;
 }
-.products .variant .circle {
+.products :where(.variant, .actions) .circle {
     display: block;
     position: static;
     top: 0;
@@ -1369,8 +1369,45 @@ form.search button:hover {
     opacity: 1;
 }
 
-
-
+.products .sctions {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+.products .qty-control {
+    width: fit-content;
+    padding: 0.5em;
+    border: 1px solid var(--border-color);
+    margin: 0 2em 2em 0;
+}
+.products .actions :where(input, button) {
+    font-size: 1.25em;
+    outline: 0;
+    border: 0;
+}
+.products .actions input {
+    width: 50px;
+    text-align: center;
+}
+.products .qty-control button::before {
+    background-color: transparent;
+}
+.products .actions .button-cart {
+    flex: 1;
+    min-width: 200px;
+}
+.products .actions .button-cart button {
+    width: var(--percent100);
+    cursor: pointer;
+}
+.wish-share a {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: var(--fw7);
+    margin: 1em 2em 1em 0;
+    transition: var(--trans-color);
+}
 
 /* 
 * 15. RESPONSIVE
