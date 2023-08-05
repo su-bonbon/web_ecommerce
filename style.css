@@ -1421,6 +1421,7 @@ form.search button:hover {
     text-transform: uppercase;
     padding: 1em 1.25em;
     border-top: 1px solid var(--border-color);
+    line-height: 3;
 }
 .products .collapse .has-child > a::before {
     content: '+';
@@ -1428,7 +1429,7 @@ form.search button:hover {
     left: 0;
 }
 .products .collapse .content {
-    margin: 1 1 1.5em 2em;
+    margin: 0 0 1.5em 2em;
     font-size: var(--font-small);
 }
 .products .collapse .content li span:first-child {
@@ -1444,7 +1445,19 @@ form.search button:hover {
     vertical-align: bottom;
     border-bottom: 2px solid var(--dark-color);
 }
-
+.products .collapse table :where(th, td) {
+    border-bottom: 1ps solid var(--border-color);
+    padding-left: 2em;
+}
+.products .collapse .content {
+    display: none;
+}
+.products .collapse .expand .content {
+    display: flex;
+}
+.products .collapse .expand > a::before {
+    content: '-';
+}
 
 
 
