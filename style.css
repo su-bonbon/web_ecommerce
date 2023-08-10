@@ -1464,7 +1464,7 @@ form.search button:hover {
 
 
         /* 08. PAGE SINGLE
-        *   e. Product Review Form
+        *   e. Product Review
         */
 .products .reviews h4 {
     font-size: 2em;
@@ -1517,6 +1517,29 @@ form.search button:hover {
     border-bottom: 1px solid var(--border-color);
 }
 
+        /* 08. PAGE SINGLE
+        *   f. Product Review Form
+        */
+.review-form .rating {
+    flex-wrap: wrap;
+}
+.review-form p {
+    font-size: 1.25em;
+    margin-right: 1em;
+}
+.review-form .rate-this input {
+    display: none;
+}
+.review-form .rate-this label {
+    float: right;
+    font-size: 2em;
+    color: var(--secondary-dark-color);
+}
+.rate-this > input:checked ~ label,
+.rate-this:not(:checked) > label:hover,
+.rate-this:not(:checked) > label:hover ~ label {
+    color: #f1c40e;
+}
 
 
 /* 
