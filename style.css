@@ -1558,7 +1558,8 @@ form.search button:hover {
         flex: 0 0 50%;
         width: 50%;
     }
-    .products.one .is_sticky {
+    .products.one .is_sticky,
+    .is_sticky {
         position: sticky;
         top: 2em;
     }
