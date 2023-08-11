@@ -1540,6 +1540,12 @@ form.search button:hover {
 .rate-this:not(:checked) > label:hover ~ label {
     color: #f1c40e;
 }
+.rate-this > input:checked + label:hover,
+.rate-this > input:checked ~ label:hover,
+.rate-this > input:hover ~ input:checked ~ label,
+.rate-this > input:checked ~ label:hover ~ label {
+    color: #ffed85;
+}
 
 
 /* 
