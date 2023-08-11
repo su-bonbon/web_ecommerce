@@ -1546,6 +1546,27 @@ form.search button:hover {
 .rate-this > input:checked ~ label:hover ~ label {
     color: #ffed85;
 }
+review-form form {
+    margin-top: 2.5em;
+}
+
+form p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+form :where(input, textarea) {
+    line-height: 1;
+    padding: 1em;
+    border: 1px solid var(--border-color);
+    outline: 0;
+}
+form label {
+    font-weight: var(--fw5);
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
 
 
 /* 
