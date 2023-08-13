@@ -1569,6 +1569,24 @@ form label {
 
 
 
+
+
+
+/* 09. PAGE SINGLE
+*   Special Offer
+*/
+
+.page-single .stock {
+    margin: 2em 0;
+}
+.page-single .stock .qty span:last-child {
+    color: initial;
+}
+.page-single .stock .bar {
+    height: 10px;
+}
+
+
 /* 
 * 15. RESPONSIVE
 */
