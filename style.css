@@ -1585,6 +1585,11 @@ form label {
 .page-single .stock .bar {
     height: 10px;
 }
+.page-single .stock .bar .available {
+    margin: 0;
+    border-radius: 0;
+    background-color: var(--secondary-dark-color);
+}
 
 
 /* 
