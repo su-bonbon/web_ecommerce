@@ -1324,7 +1324,7 @@ form.search button:hover {
     cursor: pointer;
     z-index: 1;
 }
-.products .variant input {
+:where(.products .variant, .filter-block:not(.pricing)) input {
     clip: rect(0,0,0,0);
     overflow: hidden;
     position: absolute;
@@ -1658,6 +1658,21 @@ form label {
 }
 .filter-block input:checked + label .checked::before {
     opacity: 1;
+}
+.filter-block li .count {
+    margin-left: auto;
+    color: var(--light-text-color);
+}
+
+.bycolor label[for="cored"]::before {
+    background-color: var(--primary-color);
+}
+.bycolor label[for="colight"]::before {
+    background-color: var(--border-color);
+}
+.bycolor input:checked + label {
+    background-color: transparent;
+    border: 2px solid var(--dark-color);
 }
 
 
