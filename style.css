@@ -1569,9 +1569,6 @@ form label {
 
 
 
-
-
-
 /* 09. PAGE SINGLE
 *   Special Offer
 */
@@ -1613,7 +1610,55 @@ form label {
 }
 
 
+/* 10. PAGE CATEGORY
+*   
+*/
 
+    /* 10. PAGE CATEGORY
+    *   a. Slidebar products filter
+    */
+
+.filter-block {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+.filter-block:not(:last-child) {
+    border-bottom: 1px solid var(--border-color);
+}
+.filter-block h4 {
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
+}
+.filter-block li {
+    display: flex;
+    font-size: 0.9em;
+    position: relative;
+    line-height: 2;
+}
+.filter-block label .checked {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    line-height: 0;
+    display: inline-block;
+    border: 2px solid var(--secondary-dark-color);
+    vertical-align: text-top;
+    margin: 0 7px 0 0;
+    cursor: pointer;
+}
+.filter-block label .checked::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: var(--secondary-dark-color);
+    top: 2px;
+    left: 2px;
+    opacity: 0;
+}
+.filter-block input:checked + label .checked::before {
+    opacity: 1;
+}
 
 
 /* 
