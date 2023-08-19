@@ -1582,7 +1582,7 @@ form label {
 .page-single .stock .qty span:last-child {
     color: initial;
 }
-.page-single .stock .bar {
+.single-product .stock .bar {
     height: 10px;
 }
 .page-single .stock .bar .available {
@@ -1590,6 +1590,30 @@ form label {
     border-radius: 0;
     background-color: var(--secondary-dark-color);
 }
+
+.related-products .content {
+    height: var(--percent100);
+}
+.related-products .offer {
+    margin: 0;
+}
+.related-products .offer p {
+    margin: 0 1em 0 0;
+    text-transform: none;
+    line-height: 1;
+}
+.related-products .offer ul li {
+    width: 28px;
+    height: 28px;
+    font-size: var(--font-small);
+    padding: 0.5em 0.25em;
+}
+.related-products .content .stock {
+    margin-top: auto;
+}
+
+
+
 
 
 /* 
