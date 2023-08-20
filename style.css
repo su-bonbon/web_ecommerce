@@ -1698,6 +1698,12 @@ input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     margin-top: -7px;
 }
+.byprice .price-range {
+    display: flex;
+    justify-content: space-between;
+    color: var(--light-text-color);
+    margin-top: 0.5em;
+}
 
 
 /* 
