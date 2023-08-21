@@ -1613,7 +1613,14 @@ form label {
 /* 10. PAGE CATEGORY
 *   
 */
-
+.single-category .holder {
+    display: flex;
+    flex-direction: column;
+}
+.single-category .sidebar,
+.single-category .section {
+    flex: 1 0 100%;
+}
     /* 10. PAGE CATEGORY
     *   a. Slidebar products filter
     */
@@ -1704,6 +1711,33 @@ input[type="range"]::-webkit-slider-thumb {
     color: var(--light-text-color);
     margin-top: 0.5em;
 }
+
+
+    /* 10. PAGE CATEGORY
+    *   b. Head & Product Block
+    */
+.cat-description p { 
+    font-weight: var(--fw3);
+    font-size: 0.9em;
+}
+.cat-navigation {
+    font-size: 0.85em;
+    margin: 2em 0;
+    justify-content: flex-end;
+    gap: 1em;
+}
+.cat-navigation > div {
+    position: relative;
+}
+.cat-navigation .item-filter a {
+    align-items: center;
+    text-transform: uppercase;
+}
+.cat-navigation ul {
+    display: none;
+}
+
+
 
 
 /* 
@@ -1950,6 +1984,20 @@ input[type="range"]::-webkit-slider-thumb {
     }
     .products.one .flexwrap > .row:last-child > .item {
         padding-left: 2em;
+    }
+
+    /* Page Category */
+    .single-category .holder {
+        flex-direction: row;
+    }
+    .single-category .sidebar {
+        flex: 1 0 25%;
+    }
+    .single-category .section {
+        flex: 1 0 75%;
+    }
+    .single-category .sidebar .filter {
+        padding-right: 1.5em;
     }
 }
 
