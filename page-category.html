@@ -619,7 +619,6 @@
                                                 <div class="item-perpage mobile-hide">
                                                     <div class="label">Items 10 per page</div>
                                                     <div class="desktop-hide">10</div>
-                                                    <i class="ri-arrow-down-s-line"></i>
                                                 </div>
                                                 <div class="item-options">
                                                     <div class="label">
@@ -940,6 +939,27 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.4.1/index.js"></script>
     <script src="script.js"></script>
+    <script>
+        const FtoShow = '.filter';
+        const Fpopup = document.querySelector(FtoShow);
+        const Ftrigger = document.querySelector('.filter-trigger');
+
+        Ftrigger.addEventListener('click', () => {
+            setTimeout(() => {
+                if(!Fpopup.classList.contains('show')) {
+                    Fpopup.classList.add('show')
+                }
+            }, 250 )
+        })
+
+        //auto close by click outside .filter
+        document.addEventListener('click', (e) => {
+            const isClosest = e.target.closest(FtoShow);
+            if(!isClosest && Fpopup.classList.contains('show')) {
+                Fpopup.classList.remove('show')
+            }
+        })
+    </script>
 </body>
 
 </html>
