@@ -1716,6 +1716,9 @@ input[type="range"]::-webkit-slider-thumb {
     /* 10. PAGE CATEGORY
     *   b. Head & Product Block
     */
+.page-title {
+    margin-bottom: 3em;
+}
 .cat-description p { 
     font-weight: var(--fw3);
     font-size: 0.9em;
@@ -1726,6 +1729,9 @@ input[type="range"]::-webkit-slider-thumb {
     justify-content: flex-end;
     gap: 1em;
 }
+.cat-navigation .item-filter {
+    margin-right: auto;
+}
 .cat-navigation > div {
     position: relative;
 }
@@ -1735,6 +1741,33 @@ input[type="range"]::-webkit-slider-thumb {
 }
 .cat-navigation ul {
     display: none;
+    position: absolute;
+    left: 0;
+    min-width: var(--percent100);
+    width: max-content;
+    z-index: 10;
+}
+.cat-navigation .label, .cat-navigation ul li {
+    display: flex;
+    gap: 0.5em;
+    padding: 0.5em 1em;
+    transition: var(--trans-color);
+}
+:where(.item-sortir, .item-options) .label,
+.cat-navigation ul {
+    color: var(--light-text-color);
+    background-color: var(--light-bg-color);
+    cursor: pointer;
+}
+.cat-navigation :where(label, ul li):hover {
+    color: var(--dark-color);
+}
+:where(.item-sortir, .item-options):hover ul {
+    display: block;
+}
+
+.load-more {
+    margin: 2em 0 4em;
 }
 
 
