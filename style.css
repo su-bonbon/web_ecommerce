@@ -1785,7 +1785,10 @@ input[type="range"]::-webkit-slider-thumb {
     visibility: hidden;
     opacity: 0;
 }
-
+.filter .show {
+    visibility: visible;
+    opacity: 1;
+}
 
 
 /* 
