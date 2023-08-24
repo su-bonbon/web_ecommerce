@@ -2056,7 +2056,9 @@ input[type="range"]::-webkit-slider-thumb {
         z-index: initial;
         visibility: visible;
         opacity: 1;
-        
+    }
+    .single-category .products.main .item {
+        flex: 0 0 33.3333%;
     }
 }
 
