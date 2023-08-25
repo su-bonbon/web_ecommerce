@@ -1791,6 +1791,21 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 
+
+/* 11. CART
+*   
+*/
+.mini-cart {
+    position: absolute;
+    width: 400px;
+    top: 100%;
+    background-color: var(--white-color);
+    z-index: 1000;
+    box-shadow: rgb(0 0 0 / 30%) 0 10px 50px;
+}
+
+
+
 /* 
 * 15. RESPONSIVE
 */
