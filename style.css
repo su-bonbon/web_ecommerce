@@ -1849,7 +1849,22 @@ input[type="range"]::-webkit-slider-thumb {
     flex: 1;
     justify-content: flex-end;
 }
-
+.mini-cart .subtotal {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    border-top: 1px solid var(--border-color);
+}
+.mini-cart .subtotal p:last-child {
+    font-size: 2em;
+}
+.mini-cart .actions a {
+    display: block;
+    width: var(--percent100);
+    text-align: center;
+    margin-bottom: 1em;
+}
 
 
 /* 
