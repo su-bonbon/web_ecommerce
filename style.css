@@ -1804,6 +1804,12 @@ input[type="range"]::-webkit-slider-thumb {
     background-color: var(--white-color);
     z-index: 1000;
     box-shadow: rgb(0 0 0 / 30%) 0 10px 50px;
+    visibility: hidden;
+    opacity: 0;
+}
+.iscart:hover .mini-cart {
+    visibility: visible;
+    opacity: 1;
 }
 .mini-cart .products img {
     transform: none;
