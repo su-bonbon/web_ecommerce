@@ -370,7 +370,8 @@ REUSABLE SELECTOR
     line-height: 10px;
     color: var(--white-color);
 }
-nav .fly-item {
+nav .fly-item,
+.header-nav .mini-cart .price .fly-item{
     top: 50%;
     margin-top: -24px;
     width: 30px;
@@ -1807,7 +1808,7 @@ input[type="range"]::-webkit-slider-thumb {
 .mini-cart .products img {
     transform: none;
 }
-.mini-cart ul li {
+.mini-cart ul :where(li, .price) {
     position: relative;
 }
 .mini-cart .content {
@@ -1826,7 +1827,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 .mini-cart .cart-body {
     padding: 0 1.5em;
-    margin: -1.5em;
+    margin: 0 -1.5em;
     max-height: 450px;
     overflow: auto;
 }
@@ -1837,7 +1838,17 @@ input[type="range"]::-webkit-slider-thumb {
     flex-shrink: 0;
     margin-right: 1em;
 }
-
+.mini-cart .item-content p {
+    font-size: var(--font-small);
+    font-weight: var(--fw5);
+    margin-bottom: 1.5em;
+    line-height: 1.2;
+}
+.mini-cart .item-remove {
+    margin-left: 1em;
+    flex: 1;
+    justify-content: flex-end;
+}
 
 
 
