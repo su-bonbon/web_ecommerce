@@ -116,9 +116,17 @@ const divPopup = document.querySelector(divtoShow);
 const divTrigger = document.querySelector('.cart-trigger');
 
 divTrigger.addEventListener('click', () => {
-    setTimeout(() {
+    setTimeout(() => {
         if(!divPopup.classList.contains('show')) {
             divPopup.classList.add('show');
         }
     }, 250 )
+})
+
+//close by click outside
+document.addEventListener('click', (e) => {
+    const isCloset = e.target.closest(divtoShow);
+    if(!isClosest && divPopup.classList.contains('show')) {
+        divPopup.classList.remove('show')
+    }
 })
