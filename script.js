@@ -109,3 +109,16 @@ for (let x = 0; x < stocks.length; x++) {
 
     stocks[x].querySelector('.available').style.width = percent + '%';
 }
+
+//show cart on click
+const divtoShow = '.mini-cart';
+const divPopup = document.querySelector(divtoShow);
+const divTrigger = document.querySelector('.cart-trigger');
+
+divTrigger.addEventListener('click', () => {
+    setTimeout(() {
+        if(!divPopup.classList.contains('show')) {
+            divPopup.classList.add('show');
+        }
+    }, 250 )
+})
