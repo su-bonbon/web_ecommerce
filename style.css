@@ -1811,7 +1811,7 @@ input[type="range"]::-webkit-slider-thumb {
     visibility: visible;
     opacity: 1;
 }
-.mini-cart .products img {
+:is(.mini-cart .products, .products.cart).thumbnail img {
     transform: none;
 }
 .mini-cart ul :where(li, .price) {
@@ -1837,7 +1837,7 @@ input[type="range"]::-webkit-slider-thumb {
     max-height: 450px;
     overflow: auto;
 }
-.mini-cart .thumbnail {
+:where(.mini-cart, .products.cart) .thumbnail {
     position: relative;
     width: 80px;
     height: 80px;
