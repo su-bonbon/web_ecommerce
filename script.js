@@ -125,7 +125,7 @@ divTrigger.addEventListener('click', () => {
 
 //close by click outside
 document.addEventListener('click', (e) => {
-    const isCloset = e.target.closest(divtoShow);
+    const isClosest = e.target.closest(divtoShow);
     if(!isClosest && divPopup.classList.contains('show')) {
         divPopup.classList.remove('show')
     }

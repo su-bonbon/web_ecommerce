@@ -1871,7 +1871,6 @@ input[type="range"]::-webkit-slider-thumb {
     text-align: center;
     margin-bottom: 1em;
 }
-
 .mini-cart.show {
     visibility: visible;
     opacity: 1;
@@ -1881,6 +1880,7 @@ input[type="range"]::-webkit-slider-thumb {
     max-width: 400px;
     width: 90%;
 }
+
 
 /* 
 * 15. RESPONSIVE
