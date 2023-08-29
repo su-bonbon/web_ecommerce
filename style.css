@@ -371,7 +371,7 @@ REUSABLE SELECTOR
     color: var(--white-color);
 }
 nav .fly-item,
-.header-nav .mini-cart .price .fly-item{
+.header-nav .mini-cart .price .fly-item {
     top: 50%;
     margin-top: -24px;
     width: 30px;
