@@ -2151,5 +2151,15 @@ input[type="range"]::-webkit-slider-thumb {
     .single-category .products.main .item {
         flex: 0 0 33.3333%;
     }
+
+    /* page cart */
+    .products.cart .form-cart {
+        width: 66%;
+    }
+    .products.cart .cart-summary {
+        width: 34%;
+        padding-left: 2.5em;
+        margin-top: 0;
+    }
 }
 
