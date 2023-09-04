@@ -1975,6 +1975,21 @@ input[type="range"]::-webkit-slider-thumb {
     border-style: solid;
     border-color: var(--border-color);
 }
+.products .cart-summary .variant form label {
+    position: relative;
+    border: 0;
+    background-color: var(--white-color);
+    transform: scale(.5);
+}
+.cart-summary .variant p span {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    line-height: 3;
+}
+.cart-summary .variant input:checked + label::before {
+    opacity: 1;
+}
 
 
 
