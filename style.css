@@ -1962,6 +1962,19 @@ input[type="range"]::-webkit-slider-thumb {
     margin: 2em 0;
     border: 0;
 }
+.cart-summary .content form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+.styled :where(input, select, textarea) {
+    padding: 0.75em;
+    outline: 0;
+    background-color: var(--white-color);
+    border-width: 0 0 3px 0;
+    border-style: solid;
+    border-color: var(--border-color);
+}
 
 
 
