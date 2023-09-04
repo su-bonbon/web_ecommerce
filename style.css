@@ -1332,7 +1332,7 @@ form.search button:hover {
     height: 0;
     width: 0;
 }
-.products .variant label::before {
+.products .color .variant label::before {
     opacity: 1;
 }
 .products .variant label[for="cogrey"]::before {
