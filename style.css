@@ -1990,6 +1990,37 @@ input[type="range"]::-webkit-slider-thumb {
 .cart-summary .variant input:checked + label::before {
     opacity: 1;
 }
+.products.cart .cart-total table tr > * {
+    padding: 0;
+}
+.products.cart .cart-total table td {
+    text-align: right;
+}
+.cart-summary .cart-total {
+    padding: 2em;
+    background-color: var(--border-color);
+    line-height: 2em;
+}
+.cart-summary .cart-total table {
+    width: var(--percent100);
+}
+.cart-summary .cart-total table tr {
+    display: flex;
+    justify-content: space-between;
+}
+.cart-summary .grand-total td {
+    font-size: 2em;
+    font-family: 'Poppins';
+    font-weight: var(--fw8);
+    line-height: 2em;
+}
+.cart-summary .cart-total > a {
+    width: var(--percent100);
+    display: block;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 1.25em;
+}
 
 
 
