@@ -1979,12 +1979,12 @@ input[type="range"]::-webkit-slider-thumb {
     position: relative;
     border: 0;
     background-color: var(--white-color);
-    transform: scale(.5);
+    transform: scale(.5) translateX(-25px);
 }
 .cart-summary .variant p span {
     position: absolute;
     top: 0;
-    left: 40px;
+    left: 20px;
     line-height: 3;
 }
 .cart-summary .variant input:checked + label::before {
