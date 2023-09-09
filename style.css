@@ -2058,11 +2058,23 @@ input[type="range"]::-webkit-slider-thumb {
     border-radius: var(--percent50);
 }
 .checkout p :where(input, textarea) {
-    background-color: rgb(225 225 225 / 50%);
+    background-color: rgb(255 255 255 / 50%);
     font-family: inherit;
 }
 .checkout p input:focus {
     background-color: var(--white-color);
+}
+.checkout p.checkset {
+    flex-direction: row;
+}
+.checkout p.checkset label {
+    margin: 0 0 0 1em;
+    cursor: pointer;
+}
+.checkout h2 {
+    padding-top: 0.5em;
+    margin-bottom: 0.75em;
+    border-top: 1px solid var(--border-color);
 }
 
 
