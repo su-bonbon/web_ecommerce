@@ -1174,8 +1174,9 @@ form.search button:hover {
     background-color: rgba(0, 0, 0, 0.4);
     visibility: hidden;
     opacity: 0;
+    will-change: visibility, opacity;
 }
-.showmenu .overlay {
+:where(.showmenu, .showmodal) .overlay {
     opacity: 1;
     visibility: inherit;
 }
@@ -2137,6 +2138,16 @@ input[type="range"]::-webkit-slider-thumb {
     /*text-align: center; */
     background-color: var(--light-bg-color);
     z-index: 1000;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: transform .2s, visibility .2s, opacity .2s;
+}
+.showmodal .modal {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 1s, visibility 1s, opcity 1s;
 }
 #txbox {
     text-align: center;
