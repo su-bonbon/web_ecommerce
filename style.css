@@ -2134,7 +2134,7 @@ input[type="range"]::-webkit-slider-thumb {
     height: max-content;
     padding: 2em;
     margin: auto;
-    /* text-align: center; */
+    text-align: center; */
     background-color: var(--light-bg-color);
     z-index: 1000;
 }
@@ -2145,7 +2145,20 @@ input[type="range"]::-webkit-slider-thumb {
     max-height: 400px;
     margin: -2em -2em 0 -2em;
 }
-.modal 
+.modal .image {
+    position: relative;
+    height: calc(150px + 10vw);
+    overflow: hidden;
+    max-height: 400px;
+    margin: -2em -2em 0 -2em;
+}
+.modal h2 {
+    font-size: 1.75em;
+    text-transform: uppercase;
+    max-width: 300px;
+    margin: 0.5em auto;
+    line-height: 1;
+}
 
 
 /* 
